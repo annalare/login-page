@@ -1,0 +1,30 @@
+.login {
+  max-width: 350px;
+  width: 220px;
+}
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+/* html,
+body {
+  height: 100%;
+} */
+.card {
+  background-color: rgba(132, 59, 192, 0.685);
+}
+.navbar {
+  background-color: rgba(120, 70, 161, 0.877);
+}
+body {
+  background: url(./img/pexels-mathias-reding-12708081.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
+}
+a {
+  color: white;
+}
+.logado {
+  background-color: rgba(43, 43, 180, 0.87);
+  font-weight: 500;
+}

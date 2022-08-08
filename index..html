@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg  navbar-dark fixed-top p-3 mb-5">
+    <div class="container-fluid d-flex align-itens-center justify-content-center">
+      <a class="navbar-brand" href="#">
+        <img src="./img/download20220504110727.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+
+      </a>
+      <a class="navbar-brand" href="#">ProfileSocial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="menuUsuario">
+              Olá, Larissa
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="vh-100 pt-5">
+
+    <div class="container h-100  mt-5 pt-5 d-flex align-itens-center justify-content-center  ">
+
+      <div class="row">
+        <div class="card" style="width: 22rem; height: 32rem;">
+          <div class="card-body">
+            <form class="">
+              <div class="mb-3login ">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text ">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Entrar</button>
+              <button type="submit" class="btn btn-secondary">Resetar</button>
+              <div class="alert logado mt-4 text-center align-itens-center" role="alert">Você está logado </div>
+
+              <h1 class="h3 mb-3 font-weight-normal align-itens-center text-center"> Sign in with</h1>
+              <div class="social-login d-flex justify-content-evenly">
+                <button class="btn btn-primary px-3 facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Facebook</span> </button>
+                <button class="btn btn-danger px-3 google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Google+</span> </button>
+              </div>
+            </form>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</html>
